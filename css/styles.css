@@ -1,0 +1,86 @@
+html , body {
+  height: 100%;
+  margin: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.background-animation {
+  background: linear-gradient(270deg, #eac7c7, #a0c3d2, #f7f5eb, #eae0da);
+  background-size: 800% 800%;
+
+  -webkit-animation: BackgroundAnimation 15s ease infinite;
+  -moz-animation: BackgroundAnimation 15s ease infinite;
+  animation: BackgroundAnimation 15s ease infinite;
+}
+
+@-webkit-keyframes BackgroundAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes BackgroundAnimation {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+
+.timer {
+  font-weight: 600;
+  font-size: 42px;
+}
+
+.container {
+  max-width: 540px;
+}
+
+.quote-display {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.quote-input {
+  padding: 12px;
+  font-size: 18px;
+  width: 100vw;
+  max-width: 540px;
+  resize: none;
+  border-radius: .5rem;
+  border-color: transparent;
+}
+
+.quote-btn {
+  background-color: #fff;
+  border-radius: .5rem;
+  border-color: transparent;
+  font-size: 20px;
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+.quote-btn:hover {
+  cursor: pointer;
+  background-color: #F8F6F4;
+}
