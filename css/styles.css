@@ -34,41 +34,54 @@ html , body {
 }
 
 body {
-
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 100px;
   font-family: 'Roboto Condensed', sans-serif;
-
 }
 
 
 
 .timer {
-  display: inline-block;
+  padding: 10px;
   font-weight: 600;
   font-size: 42px;
+  
 }
 
 .container {
+  min-height: 100px;
   max-width: 540px;
+  min-width: 540px;
 }
 
 .quote-display {
+  display: block;
   font-size: 24px;
   margin-bottom: 14px;
+ 
 }
 
 .quote-input {
   padding: 12px;
   font-size: 18px;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box; 
   max-width: 540px;
   resize: none;
   border-radius: .5rem;
   border-color: transparent;
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 20px; 
+  width: 100%; 
+  box-sizing: border-box;
 }
 
 .quote-btn {
@@ -78,7 +91,6 @@ body {
   font-size: 20px;
   padding: 5px;
   font-family: 'Roboto Condensed', sans-serif;
-  
 }
 
 .quote-btn:hover {
