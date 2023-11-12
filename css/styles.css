@@ -47,7 +47,7 @@ body {
 
 
 .timer {
-  padding-top: 40px;
+  display: inline-block;
   font-weight: 600;
   font-size: 42px;
 }
