@@ -84,3 +84,16 @@ body {
   cursor: pointer;
   background-color: #F8F6F4;
 }
+
+.correct {
+  color: #74b660;
+}
+
+.incorrect {
+  color: #d06161;
+  text-decoration: underline;
+}
+
+.endGameMessage {
+  font-size: 24px;
+}
