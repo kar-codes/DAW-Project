@@ -115,6 +115,7 @@ const endGame = () => {
 };
 
 
+
 /**
  * We are triggering the handleNewQuote function in order to populate the quote default value
  */

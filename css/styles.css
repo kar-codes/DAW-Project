@@ -47,6 +47,7 @@ body {
 
 
 .timer {
+  padding-top: 40px;
   font-weight: 600;
   font-size: 42px;
 }
@@ -96,4 +97,23 @@ body {
 
 .endGameMessage {
   font-size: 24px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+.fa-heart {
+  color:#000;
+}
+
+footer a:active {
+  text-decoration: none;
+  color: #000;
 }
